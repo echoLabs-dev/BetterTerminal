@@ -53,6 +53,8 @@ uname:	Show system information
 clear:	Clear the terminal screen
 exit:	Exit the terminal
 
+###
+
 📌 TODO
 Implement clear command using a better cross-platform approach
 Add support for more Unix commands
