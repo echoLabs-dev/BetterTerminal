@@ -25,3 +25,48 @@ cd BetterTerminal
 Run BetterTerminal:
 
 **python main.py**
+
+Command	Description
+ls:	List files in the current directory
+cd: <dir>	Change the current directory
+pwd:	Show the current directory path
+mkdir: <dir>	Create a new directory
+rm: <file/dir>	Remove a file or directory
+touch: <file>	Create an empty file
+echo: <text>	Print text to the terminal
+cat: <file>	Display file contents
+cp: <source> <destination>	Copy files or directories
+mv: <source> <destination>	Move or rename files
+grep: <word> <file>	Search for a word in a file
+find: <filename>	Search for a file in the current directory and subdirectories
+history:	Show command history
+chmod: <mode> <file>	Change file permissions
+head: <file> <lines>	Show the first N lines of a file
+tail: <file> <lines>	Show the last N lines of a file
+du:	Show total disk usage in the current directory
+ps:	List running processes
+kill: <pid>	Terminate a process
+df:	Show disk usage statistics
+whoami:	Display the current username
+uptime:	Show system uptime
+uname:	Show system information
+clear:	Clear the terminal screen
+exit:	Exit the terminal
+
+📌 TODO
+Implement clear command using a better cross-platform approach
+Add support for more Unix commands
+Improve error handling and add more meaningful error messages
+
+🤝 Contributing
+Contributions are welcome! If you have an idea or want to improve BetterTerminal, feel free to:
+
+Fork this repository
+Create a new branch (git checkout -b feature-name)
+Commit your changes (git commit -m "Added feature X")
+Push to your fork (git push origin feature-name)
+Submit a Pull Request
+
+📜 License
+This project is licensed under the MIT License.
+
